@@ -3,4 +3,4 @@
 
 ### Demo Screeshots
 
-![Unigine Desktop Demo](./readme-images/preview.png "Desktop Demo")
+![Iphone Dynamic Island Image](./readme-img/Dynamic Island Iphone Image.jpg "Desktop Demo")
