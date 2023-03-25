@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dynamic Island Effect | Html CSS</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="box">
+		<div class="inner">
+			<div class="island_popup">
+				<div class="content">
+					<div class="details">
+						<div class="imgBx">
+							<img src="img.jpg">
+						</div>
+						<p>Alex Calling</p>
+					</div>
+					<div class="action">
+						<ion-icon name="call" class="red"></ion-icon>
+						<ion-icon name="call" class="green"></ion-icon>
+					</div>
+				</div>
+			</div>
+		</div>
+		<i class="btn btn1"></i>
+		<i class="btn btn2"></i>
+		<i class="btn btn3"></i>
+		<i class="rightSide"></i>
+	</div>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script>
+		let popup = document.querySelector('.island_popup');
+		popup.onclick = function(){
+			popup.classList.toggle('active')
+		}
+	</script>
+</body>
+</html>
