@@ -3,4 +3,4 @@
 
 ### Demo Screeshots
 
-![Iphone Dynamic Island Image](./readme-img/Dynamic Island Iphone Image.jpg "Desktop Demo")
+![Iphone Dynamic Island Image](./readme-images/Dynamic-island-iphone.jpg "Desktop Demo")
